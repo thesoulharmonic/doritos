@@ -1,0 +1,267 @@
+/*! CSS Used fontfaces */
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500&display=swap');
+
+body {
+  background-color: #000 !important;
+  color:#fff;
+  font-family: 'Barlow Condensed', sans-serif;
+}
+
+.App {
+  font-family: Helvetica, sans-serif;
+  text-align: center;
+  background-color: #000;
+}
+
+.App-logo {
+  height: 80vmin;
+  pointer-events: none;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Barlow Condensed', sans-serif;
+  text-transform: uppercase;
+  color: #fff;
+  
+}
+
+p{
+font-family: 'Barlow Condensed', sans-serif;
+font-size:22px;
+line-height: 1.1;}
+
+/* nav styling */
+
+nav {
+  font-family: "BarlowCondensed SemiBold", sans-serif;
+  font-weight: 700;
+    text-transform: uppercase;
+  height: 100px;
+  background-color: #000;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+span.menuLogo {
+}
+
+nav img {
+  height: 100px;
+  width: 130px;
+  left: 10%;
+  top: 1%;
+  position: absolute;
+}
+
+.menuButton {
+  font-family: 'Barlow Condensed', sans-serif;
+  background-color: #000;
+  color: #fff;
+  padding: 16px 20px;
+  text-transform: uppercase;
+  font-size: 25px;
+  font-weight: 700;
+  border: 0px;
+  margin-top: 20px;
+}
+
+.menuButton:hover {
+  transition: all 0.5s ease;
+  background: url("https://www.doritos.com/sites/doritos.com/themes/doritos/img/buttons_red.png")
+    no-repeat center top;
+  background-size: cover;
+}
+
+/* header styling */
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #000;
+}
+
+.imageHeader img{
+  width:100%!important;
+  display:flex;
+}
+
+.about {
+  padding: 40px;
+  margin-left:20%;
+  margin-right:20%
+}
+
+.container {
+  color:#fff;
+}
+.home-products-main {
+  min-height: 500px;
+  max-width: 70% !important;
+}
+
+.home-products-main .menuButton {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  transition: all 0.5s ease;
+  background: url("https://www.doritos.com/sites/doritos.com/themes/doritos/img/buttons_red.png")
+    no-repeat center top;
+  background-size: cover;
+  margin-bottom:30px
+}
+
+
+.about, .videos, .products {
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color:#fff;
+}
+
+.videos h2, .about h2, .products h2 {
+font-size:50px;
+  border-bottom:1px solid #ed1f24;
+  margin-top:20px;
+  margin-bottom:30px
+}
+
+.homeVideos{
+  background-color:#ed1f24;
+  padding-bottom:40px}
+
+.homeVideos .imageHeader{display:none}
+/* product styling */
+
+.product-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 20px;
+  min-height: 310px;
+  text-align: left;
+}
+
+.itemImg {
+  display: flex;
+  align-items: center;
+}
+
+.itemImg img {
+  width: 100%;
+  height: auto;
+  
+}
+
+.itemName {
+  text-align: center;
+  font-size: 16px;
+  font-weight: 600;
+  margin-top: 20px;
+  width: 100%;
+}
+
+.itemType,
+.itemColor {
+  font-size: 16px;
+  margin-top: 0px;
+  font-weight: 400;
+  width: 100%;
+}
+
+.itemPrice {
+  font-size: 16px;
+  font-weight: 600;
+  width: 100%;
+  margin-top: 25px;
+}
+
+/* classes for user login */
+
+.userLoggedOut:hover {
+  margin-left: 5px;
+  background: url("../src/img/user.png");
+  background-size: cover;
+  height: 25px;
+  width: 25px;
+  border: none;
+}
+
+.userLoggedOut {
+  margin-left: 5px;
+  background: url("../src/img/login-rounded.png");
+  background-size: cover;
+  height: 25px;
+  width: 25px;
+  border: none;
+}
+.terms {
+  margin: 20px;
+}
+
+/* Interest Calc */
+.intCalc {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 85vh;
+}
+
+.card_text {
+  padding-top: 40px;
+}
+.total_amount_heading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  font-weight: 800;
+}
+.total_amount_para {
+  text-align: center;
+  font-size: 12px;
+  padding-top: 5px;
+  color: #4b4b4b;
+}
+.input_area {
+  margin-top: 40px;
+}
+
+.input_field {
+  margin-top: 30px;
+  width: 445px;
+}
+#outlined-basic {
+  width: 410px;
+}
+
+.button_collection {
+  margin-top: 61px;
+  margin-bottom: 1rem;
+}
+.btn_one {
+  background-color: #1f1f1f;
+  width: 200px;
+  height: 75px;
+}
+
+.imageFooter{
+  display: flex;
+  align-items: center;
+margin-top:40px;
+
+}
+
+.imageFooter img {
+  width: 65px; 
+  height:50px;
+  margin: 0 auto;}
